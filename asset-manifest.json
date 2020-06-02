@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/agile-pm-questions/static/css/main.5f361e03.chunk.css",
+    "main.js": "/agile-pm-questions/static/js/main.cc3f338b.chunk.js",
+    "main.js.map": "/agile-pm-questions/static/js/main.cc3f338b.chunk.js.map",
+    "runtime-main.js": "/agile-pm-questions/static/js/runtime-main.151896cd.js",
+    "runtime-main.js.map": "/agile-pm-questions/static/js/runtime-main.151896cd.js.map",
+    "static/js/2.7804bedf.chunk.js": "/agile-pm-questions/static/js/2.7804bedf.chunk.js",
+    "static/js/2.7804bedf.chunk.js.map": "/agile-pm-questions/static/js/2.7804bedf.chunk.js.map",
+    "index.html": "/agile-pm-questions/index.html",
+    "precache-manifest.816d2aba81ec9acca3f329997269d414.js": "/agile-pm-questions/precache-manifest.816d2aba81ec9acca3f329997269d414.js",
+    "service-worker.js": "/agile-pm-questions/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/agile-pm-questions/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.7804bedf.chunk.js.LICENSE.txt": "/agile-pm-questions/static/js/2.7804bedf.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/agile-pm-questions/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.151896cd.js",
+    "static/js/2.7804bedf.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.cc3f338b.chunk.js"
+  ]
+}
