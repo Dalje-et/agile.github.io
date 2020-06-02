@@ -44,15 +44,15 @@ class App extends React.Component {
         questionCards.push(
           (
             <Grid item xs={12} sm={6}>
-              <Card style={{animation: animations.popIn, backgroundColor: "rgba(253, 247, 237, 0.4)", maxWidth: "95%", margin: "0 auto"}}>
+              <Card style={{animation: animations.popIn, backgroundColor: "rgba(253, 247, 237, 0.4)", maxWidth: "95%", margin: "0 auto", height: "auto"}}>
                 <CardContent>
                   <Typography color="textPrimary" gutterBottom>
                     <b>{question.question}</b>
                   </Typography>
                   <p style={{lineHeight: "1.5"}}>
-                    <span role="img" aria-label={"correct"}>✅</span> <span>{question.answers[0].text}</span><br/>
-                    <span role="img" aria-label={"incorrect"}>❌</span> <span>{question.answers[1].text}</span><br/>
-                    <span role="img" aria-label={"incorrect"}>❌</span> <span>{question.answers[2].text}</span><br/>
+                    <span role="img" aria-label={"correct"}>✅</span> <span>{question.answers[0].text}</span><br/><br/>
+                    <span role="img" aria-label={"incorrect"}>❌</span> <span>{question.answers[1].text}</span><br/><br/>
+                    <span role="img" aria-label={"incorrect"}>❌</span> <span>{question.answers[2].text}</span><br/><br/>
                     <span role="img" aria-label={"incorrect"}>❌</span> <span>{question.answers[3].text}</span><br/>
                   </p>
                 </CardContent>
