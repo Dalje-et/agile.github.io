@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/agile.github.io/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/agile.github.io/static/js/main.7bd3da11.chunk.js",
-    "main.js.map": "/agile.github.io/static/js/main.7bd3da11.chunk.js.map",
+    "main.css": "/agile.github.io/static/css/main.69eda509.chunk.css",
+    "main.js": "/agile.github.io/static/js/main.ea7d733b.chunk.js",
+    "main.js.map": "/agile.github.io/static/js/main.ea7d733b.chunk.js.map",
     "runtime-main.js": "/agile.github.io/static/js/runtime-main.c9d50da3.js",
     "runtime-main.js.map": "/agile.github.io/static/js/runtime-main.c9d50da3.js.map",
     "static/css/2.fa9bfc6d.chunk.css": "/agile.github.io/static/css/2.fa9bfc6d.chunk.css",
-    "static/js/2.2bd90ca9.chunk.js": "/agile.github.io/static/js/2.2bd90ca9.chunk.js",
-    "static/js/2.2bd90ca9.chunk.js.map": "/agile.github.io/static/js/2.2bd90ca9.chunk.js.map",
+    "static/js/2.d89b6982.chunk.js": "/agile.github.io/static/js/2.d89b6982.chunk.js",
+    "static/js/2.d89b6982.chunk.js.map": "/agile.github.io/static/js/2.d89b6982.chunk.js.map",
     "index.html": "/agile.github.io/index.html",
-    "precache-manifest.0a8133c319a646a11a34a90dfb1a064b.js": "/agile.github.io/precache-manifest.0a8133c319a646a11a34a90dfb1a064b.js",
+    "precache-manifest.417330c5d6422f66ebfbdade04485a1f.js": "/agile.github.io/precache-manifest.417330c5d6422f66ebfbdade04485a1f.js",
     "service-worker.js": "/agile.github.io/service-worker.js",
     "static/css/2.fa9bfc6d.chunk.css.map": "/agile.github.io/static/css/2.fa9bfc6d.chunk.css.map",
-    "static/css/main.5ecd60fb.chunk.css.map": "/agile.github.io/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.2bd90ca9.chunk.js.LICENSE.txt": "/agile.github.io/static/js/2.2bd90ca9.chunk.js.LICENSE.txt",
+    "static/css/main.69eda509.chunk.css.map": "/agile.github.io/static/css/main.69eda509.chunk.css.map",
+    "static/js/2.d89b6982.chunk.js.LICENSE.txt": "/agile.github.io/static/js/2.d89b6982.chunk.js.LICENSE.txt",
     "static/media/index.css": "/agile.github.io/static/media/roboto-latin-900-normal.bb1e4dc6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.c9d50da3.js",
     "static/css/2.fa9bfc6d.chunk.css",
-    "static/js/2.2bd90ca9.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.7bd3da11.chunk.js"
+    "static/js/2.d89b6982.chunk.js",
+    "static/css/main.69eda509.chunk.css",
+    "static/js/main.ea7d733b.chunk.js"
   ]
 }

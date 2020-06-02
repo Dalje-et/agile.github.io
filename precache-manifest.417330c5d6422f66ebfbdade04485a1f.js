@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a539c66d7f25869bbc0480253e4ee2b",
+    "revision": "d8c502f3b83706f07e3f560ae802c0c2",
     "url": "/agile.github.io/index.html"
   },
   {
-    "revision": "451bbfaff960f4c5444a",
+    "revision": "71bb24d602a60c9faee5",
     "url": "/agile.github.io/static/css/2.fa9bfc6d.chunk.css"
   },
   {
-    "revision": "ccb534cbfccf55369f8b",
-    "url": "/agile.github.io/static/css/main.5ecd60fb.chunk.css"
+    "revision": "21a326639c25c330b4da",
+    "url": "/agile.github.io/static/css/main.69eda509.chunk.css"
   },
   {
-    "revision": "451bbfaff960f4c5444a",
-    "url": "/agile.github.io/static/js/2.2bd90ca9.chunk.js"
+    "revision": "71bb24d602a60c9faee5",
+    "url": "/agile.github.io/static/js/2.d89b6982.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/agile.github.io/static/js/2.2bd90ca9.chunk.js.LICENSE.txt"
+    "url": "/agile.github.io/static/js/2.d89b6982.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ccb534cbfccf55369f8b",
-    "url": "/agile.github.io/static/js/main.7bd3da11.chunk.js"
+    "revision": "21a326639c25c330b4da",
+    "url": "/agile.github.io/static/js/main.ea7d733b.chunk.js"
   },
   {
     "revision": "4bf9d43730b724b27123",
