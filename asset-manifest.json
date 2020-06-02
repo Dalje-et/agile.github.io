@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/agile.github.io/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/agile.github.io/static/js/main.4254279e.chunk.js",
-    "main.js.map": "/agile.github.io/static/js/main.4254279e.chunk.js.map",
+    "main.js": "/agile.github.io/static/js/main.4b0fe028.chunk.js",
+    "main.js.map": "/agile.github.io/static/js/main.4b0fe028.chunk.js.map",
     "runtime-main.js": "/agile.github.io/static/js/runtime-main.c9d50da3.js",
     "runtime-main.js.map": "/agile.github.io/static/js/runtime-main.c9d50da3.js.map",
     "static/css/2.fa9bfc6d.chunk.css": "/agile.github.io/static/css/2.fa9bfc6d.chunk.css",
     "static/js/2.2bd90ca9.chunk.js": "/agile.github.io/static/js/2.2bd90ca9.chunk.js",
     "static/js/2.2bd90ca9.chunk.js.map": "/agile.github.io/static/js/2.2bd90ca9.chunk.js.map",
     "index.html": "/agile.github.io/index.html",
-    "precache-manifest.dde4b8b8b220988990f46637600185fd.js": "/agile.github.io/precache-manifest.dde4b8b8b220988990f46637600185fd.js",
+    "precache-manifest.1f1e7bee698e6e1a4e3041f308621b42.js": "/agile.github.io/precache-manifest.1f1e7bee698e6e1a4e3041f308621b42.js",
     "service-worker.js": "/agile.github.io/service-worker.js",
     "static/css/2.fa9bfc6d.chunk.css.map": "/agile.github.io/static/css/2.fa9bfc6d.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/agile.github.io/static/css/main.5ecd60fb.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.fa9bfc6d.chunk.css",
     "static/js/2.2bd90ca9.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.4254279e.chunk.js"
+    "static/js/main.4b0fe028.chunk.js"
   ]
 }
