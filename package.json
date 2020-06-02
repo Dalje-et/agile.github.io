@@ -1,13 +1,15 @@
 {
-  "homepage": "http://Dalje-et.github.io/agile-pm-questions",
+  "homepage": "https://dalje-et.github.io/agile.github.io/",
   "name": "agile-pm-questions",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.10.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
+    "react-animation": "^1.2.2",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
