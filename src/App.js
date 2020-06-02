@@ -67,11 +67,13 @@ class App extends React.Component {
   }
 
   answerIncludeKeyword(answers, filter) {
-    answers.forEach(answer => {
-      if (answer.text.toLowerCase().includes(filter.toLowerCase())) {
+    for (let i = 0; i < answers.length; i++) {
+      if (answers[i].text.toLowerCase().includes(filter.toLowerCase())) {
         return true;
       }
-    })
+    }
+
+    return false;
   }
 
   onFilterChange(event) {
