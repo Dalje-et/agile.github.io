@@ -1,68 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This repository consists the code to https://dalje-et.github.io/agile.github.io/. The developers of this project do not guarantee the correctness of the answers provided on the website. This is a community project. If you have more sample exam questions, please let us know so that we can include it. The sole purpose of this project is to help students that want to take the Agile PM Practicioner exam study.
 
-In the project directory, you can run:
+## How does it work?
 
-### `yarn start`
+Great you ask! Quite simple actually. You open the page and type in a keyword of your question (do not copy paste the whole question since wordings can always change). A question consists of correct and wrong answers, marked green or red, respectively.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Note: your keyword will only apply to questions and not to the answers!
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## How did you get the answers?
 
-### `yarn test`
+Well, we sat down and just thought reaaaaally hard about the questions and their answers.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## I see a question and I believe the answer you guys marked as correct is, in fact, wrong. What to do?
 
-### `yarn build`
+First of all, sorry if that is actually the case. Secondly, please open an issue/pull request so we can take proper actions. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Why did you do this?
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+For shits and giggles.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Enjoy! 
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
