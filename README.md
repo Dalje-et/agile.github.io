@@ -6,7 +6,7 @@ This repository consists the code to https://dalje-et.github.io/agile.github.io/
 
 Great you ask! Quite simple actually. You open the page and type in a keyword of your question (do not copy paste the whole question since wordings can always change). A question consists of correct and wrong answers, marked green or red, respectively.
 
-Note: your keyword will only apply to questions and not to the answers!
+Note: your keyword will be applied to questions and to answers!
 
 ## How did you get the answers?
 
