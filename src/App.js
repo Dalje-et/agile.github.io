@@ -40,7 +40,7 @@ class App extends React.Component {
     const questionCards = [];
 
     questions.forEach(question => {
-      if (filter === "" || question.question.includes(filter)) {
+      if (filter === "" || question.question.toLowerCase().includes(filter.toLowerCase()) || this.answerIncludeKeyword(question.answers, filter)) {
         questionCards.push(
           (
             <Grid item xs={12} sm={6}>
@@ -64,6 +64,14 @@ class App extends React.Component {
     });
 
     return questionCards;
+  }
+
+  answerIncludeKeyword(answers, filter) {
+    answers.forEach(answer => {
+      if (answer.text.toLowerCase().includes(filter.toLowerCase())) {
+        return true;
+      }
+    })
   }
 
   onFilterChange(event) {
