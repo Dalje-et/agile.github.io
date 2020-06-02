@@ -5,21 +5,22 @@ import TextField from "@material-ui/core/TextField";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
-import green from "@material-ui/core/colors/green";
 import {animations} from 'react-animation'
-import red from "@material-ui/core/colors/red";
 import questions from "./questions";
 
 const useStyles = theme => ({
   root: {
+    height: "100%",
+    width: "100%",
+    position: "absolute",
+    top: "0",
+    left: "0"
+  },
+  container: {
+    width: "95%",
     maxWidth: "800px",
     margin: "0 auto",
-    marginTop: "200px"
-  },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
+    marginTop: "100px",
   }
 });
 
@@ -42,18 +43,18 @@ class App extends React.Component {
       if (filter === "" || question.question.includes(filter)) {
         questionCards.push(
           (
-            <Grid item xs={6}>
-              <Card style={{animation: animations.popIn}}>
+            <Grid item xs={12} sm={6}>
+              <Card style={{animation: animations.popIn, backgroundColor: "rgba(253, 247, 237, 0.4)", maxWidth: "95%", margin: "0 auto"}}>
                 <CardContent>
                   <Typography color="textPrimary" gutterBottom>
-                    {question.question}
+                    <b>{question.question}</b>
                   </Typography>
-                  <Typography variant="body2" component="p">
-                    • <span style={{color: green[500]}}>{question.answers[0].text}</span><br/>
-                    • <span style={{color: red[500]}}>{question.answers[1].text}</span><br/>
-                    • <span style={{color: red[500]}}>{question.answers[2].text}</span><br/>
-                    • <span style={{color: red[500]}}>{question.answers[3].text}</span><br/>
-                  </Typography>
+                  <p style={{lineHeight: "1.5"}}>
+                    <span role="img" aria-label={"correct"}>✅</span> <span>{question.answers[0].text}</span><br/>
+                    <span role="img" aria-label={"incorrect"}>❌</span> <span>{question.answers[1].text}</span><br/>
+                    <span role="img" aria-label={"incorrect"}>❌</span> <span>{question.answers[2].text}</span><br/>
+                    <span role="img" aria-label={"incorrect"}>❌</span> <span>{question.answers[3].text}</span><br/>
+                  </p>
                 </CardContent>
               </Card>
             </Grid>
@@ -76,7 +77,7 @@ class App extends React.Component {
 
     return (
       <div className={classes.root}>
-        <Grid container spacing={3}>
+        <Grid container className={classes.container} spacing={3}>
           <Grid item xs={12}>
             <TextField
               id="filled-basic"
