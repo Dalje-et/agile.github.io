@@ -1,6 +1,6 @@
 ## Introduction
 
-This repository consists the code to https://dalje-et.github.io/agile.github.io/. The developers of this project do not guarantee the correctness of the answers provided on the website. This is a community project. If you have more sample exam question, please let us know so that we can include it. The sole purpose of this project is to help students that want to take the Agile PM Practicioner exam study.
+This repository consists the code to https://dalje-et.github.io/agile.github.io/. The developers of this project do not guarantee the correctness of the answers provided on the website. This is a community project. If you have more sample exam questions, please let us know so that we can include it. The sole purpose of this project is to help students that want to take the Agile PM Practicioner exam study.
 
 ## How does it work?
 
