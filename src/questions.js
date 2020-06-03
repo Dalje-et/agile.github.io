@@ -339,7 +339,7 @@ export default [
     "question": "Which of these statements is true?",
     "answers": [
       {
-        "text": "AgilePM ensures successful agile product delivery, but needs the formality of a project management method to ensure agile does not get out of control",
+        "text": "AgilePM integrates a project management lifecycle and a product development lifecycle into a single framework",
         "correct": true
       },
       {
@@ -351,7 +351,7 @@ export default [
         "correct": false
       },
       {
-        "text": "AgilePM integrates a project management lifecycle and a product development lifecycle into a single framework",
+        "text": "AgilePM ensures successful agile product delivery, but needs the formality of a project management method to ensure agile does not get out of control",
         "correct": false
       }
     ]
@@ -675,15 +675,15 @@ export default [
     "question": "AgilePM advocates",
     "answers": [
       {
-        "text": ".incremental delivery, in order to deliver real business benefit early",
+        "text": "..incremental delivery, in order to deliver real business benefit early",
         "correct": true
       },
       {
-        "text": "daily delivery, since this is the objective of going agile",
+        "text": "..daily delivery, since this is the objective of going agile",
         "correct": false
       },
       {
-        "text": "delivery into production every timebox",
+        "text": "..delivery into production every timebox",
         "correct": false
       },
       {
@@ -822,7 +822,7 @@ export default [
     "question": "What does AgilePM state about Iterative Development?",
     "answers": [
       {
-        "text": "terative Development needs to be controlled",
+        "text": "Iterative Development needs to be controlled",
         "correct": true
       },
       {
@@ -2053,6 +2053,27 @@ export default [
       },
       {
         "text": "Focus on the Business Need",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does AgilePM state about the business case?",
+    "answers": [
+      {
+        "text": "AgilePM teams will establish a sound business case",
+        "correct": true
+      },
+      {
+        "text": "A business case is irrelevant for an Agile project",
+        "correct": false
+      },
+      {
+        "text": "AgilePM teams will avoid creating a business case if possible",
+        "correct": false
+      },
+      {
+        "text": "A business case to agree project funding needs to be approved before closing down the project",
         "correct": false
       }
     ]
