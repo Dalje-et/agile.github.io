@@ -843,19 +843,19 @@ export default [
     "question": "AgilePM..",
     "answers": [
       {
-        "text": "encourages informal face-to-face communication at all levels",
+        "text": "..encourages informal face-to-face communication at all levels",
         "correct": true
       },
       {
-        "text": "avoids formal documentation",
+        "text": "..avoids formal documentation",
         "correct": false
       },
       {
-        "text": "..encourages informal face-to-face communication at all levels",
+        "text": "..encourages as many coffee breaks as you want",
         "correct": false
       },
       {
-        "text": "replaces formal documentation with digital photographs",
+        "text": "..replaces formal documentation with digital photographs",
         "correct": false
       }
     ]
