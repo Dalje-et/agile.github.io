@@ -798,27 +798,6 @@ export default [
     ]
   },
   {
-    "question": "Which planning product do the Solution Development Team use to record what they will be working on in the next few weeks, together with their MoSCoW priorities?",
-    "answers": [
-      {
-        "text": "The Timebox Plan",
-        "correct": true
-      },
-      {
-        "text": "The Delivery Plan",
-        "correct": false
-      },
-      {
-        "text": "The Deployment Plan",
-        "correct": false
-      },
-      {
-        "text": "The Development Approach",
-        "correct": false
-      }
-    ]
-  },
-  {
     "question": "What product does AgilePM use to hold the work to be developed by the Solution Development Team?",
     "answers": [
       {
@@ -1297,27 +1276,6 @@ export default [
       },
       {
         "text": "The staff required to build a solution is substantially reduced",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "question": "What does the 'S' in MoSCoW stand for?",
-    "answers": [
-      {
-        "text": "Should have",
-        "correct": true
-      },
-      {
-        "text": "Should not have",
-        "correct": false
-      },
-      {
-        "text": "Standardization",
-        "correct": false
-      },
-      {
-        "text": "Support Team",
         "correct": false
       }
     ]
