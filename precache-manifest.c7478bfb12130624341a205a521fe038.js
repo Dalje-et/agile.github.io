@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "962c9060db4d82ff898df757a1ecfb8d",
+    "revision": "12d0d2dc6991aae0692c58713899bd40",
     "url": "/agile.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agile.github.io/static/css/2.fa9bfc6d.chunk.css"
   },
   {
-    "revision": "4f83a671b608b526d0f8",
+    "revision": "8929d6deddda5af4d510",
     "url": "/agile.github.io/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agile.github.io/static/js/2.2bd90ca9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f83a671b608b526d0f8",
-    "url": "/agile.github.io/static/js/main.450a3056.chunk.js"
+    "revision": "8929d6deddda5af4d510",
+    "url": "/agile.github.io/static/js/main.bc18b87a.chunk.js"
   },
   {
     "revision": "4bf9d43730b724b27123",
