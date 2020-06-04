@@ -7,6 +7,7 @@ import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import {animations} from 'react-animation'
 import questions from "./questions";
+import _ from 'lodash';
 
 const useStyles = theme => ({
   root: {
@@ -38,8 +39,10 @@ class App extends React.Component {
 
   filterQuestions(filter) {
     const questionCards = [];
+    let correct = <span role="img" aria-label={"correct"}>✅</span>
+    let incorrect = <span role="img" aria-label={"incorrect"}>❌</span>
 
-    questions.forEach(question => {
+    _.forEach(questions, question => {
       if (filter === "" || question.question.toLowerCase().includes(filter.toLowerCase()) || this.answerIncludeKeyword(question.answers, filter)) {
         questionCards.push(
           (
@@ -50,10 +53,10 @@ class App extends React.Component {
                     <b>{question.question}</b>
                   </Typography>
                   <p style={{lineHeight: "1.5"}}>
-                    <span role="img" aria-label={"correct"}>✅</span> <span>{question.answers[0].text}</span><br/><br/>
-                    <span role="img" aria-label={"incorrect"}>❌</span> <span>{question.answers[1].text}</span><br/><br/>
-                    <span role="img" aria-label={"incorrect"}>❌</span> <span>{question.answers[2].text}</span><br/><br/>
-                    <span role="img" aria-label={"incorrect"}>❌</span> <span>{question.answers[3].text}</span><br/>
+                    {question.answers[0].correct ? correct : incorrect} <span>{question.answers[0].text}</span><br/><br/>
+                    {question.answers[1].correct ? correct : incorrect} <span>{question.answers[1].text}</span><br/><br/>
+                    {question.answers[2].correct ? correct : incorrect} <span>{question.answers[2].text}</span><br/><br/>
+                    {question.answers[3].correct ? correct : incorrect} <span>{question.answers[3].text}</span><br/><br/>
                   </p>
                 </CardContent>
               </Card>
